@@ -1,9 +1,10 @@
 import React from "react";
 import { Form, Button, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
+import '../Styles/MainNavbar.css'
 const MainNavBar = () => {
   return (
-    <div>
+    <div className="mainnavbar">
       <Navbar bg="light" expand="lg" className='justify-content-around'>
         <div>
         <Navbar.Brand href="#home">UnScripted</Navbar.Brand>
